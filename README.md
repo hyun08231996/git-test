@@ -18,12 +18,12 @@
 ## 🔄 버전 이동 & 기록 보기
 - git log : 커밋 로그 보기
 - git log --oneline : 한 줄 요약 로그 보기
-- git checkout <브랜치명> : 다른 브랜치로 전환
+- git switch <브랜치명> : 다른 브랜치로 전환
 
 ## 🌿 브랜치
 - git branch : 현재 브랜치 목록 확인
 - git branch <이름> : 새 브랜치 생성
-- git checkout -b <이름> : 브랜치 생성 + 이동
+- git switch -c <이름> : 브랜치 생성 + 이동
 - git merge <브랜치> : 현재 브랜치에 다른 브랜치 병합
 - git branch -D <이름> : 브랜치 삭제
 
